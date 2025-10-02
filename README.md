@@ -195,7 +195,7 @@ Part of the [SaaSy Scaffold Library](https://github.com/ajibear?tab=repositories
 
 **Author:** [Augustus Rivers](https://offlabel.design)  
 **Website:** https://offlabel.design  
-**Email:** contact@offlabel.design  
+**Email:** hello@offlabel.design  
 **Created:** October 02, 2025  
 **License:** MIT
 
@@ -204,7 +204,7 @@ Part of the [SaaSy Scaffold Library](https://github.com/ajibear?tab=repositories
 For questions, issues, or contributions:
 - Open an issue in this repository
 - Visit [offlabel.design](https://offlabel.design)
-- Email: contact@offlabel.design
+- Email: hello@offlabel.design
 
 ---
 
