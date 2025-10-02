@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Run tests
+      run: |
+        echo "Test configuration will be added based on specific stack"
+        # Add stack-specific test commands here
+    
+    - name: Lint
+      run: |
+        echo "Linting configuration will be added based on specific stack"
+        # Add stack-specific lint commands here
