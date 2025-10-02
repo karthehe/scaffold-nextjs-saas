@@ -15,7 +15,7 @@ import { Providers } from '@/components/providers'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'SaaS Starter - Off Label Design',
+  title: 'SaaS Starter - Offlabel Design',
   description: 'Production-ready Next.js SaaS platform. Built with love (and a lot of coffee) by Augustus Rivers.',
   authors: [{ name: 'Augustus Rivers', url: 'https://offlabel.design' }],
   keywords: ['nextjs', 'saas', 'stripe', 'typescript', 'tailwind'],

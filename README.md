@@ -164,7 +164,7 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
 
 MIT License - see [LICENSE](./LICENSE)
 
-Built with ❤️ by Augustus Rivers at [Off Label Design](https://offlabel.design)
+Built with ❤️ by Augustus Rivers at [Offlabel Design](https://offlabel.design)
 
 Questions? Email: hello@offlabel.design
 
@@ -208,4 +208,4 @@ For questions, issues, or contributions:
 
 ---
 
-*This scaffold is maintained as part of the Off Label Design framework for modern application development.*
+*This scaffold is maintained as part of the Offlabel Design framework for modern application development.*

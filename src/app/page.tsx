@@ -42,7 +42,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="underline hover:text-foreground transition-colors"
             >
-              Off Label Design
+              Offlabel Design
             </a>
           </div>
         </div>
