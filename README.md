@@ -1,4 +1,7 @@
-# Next.js SaaS Scaffold
+# Next.j- **Authentication** - NextAuth.js with Google, GitHub, and email
+- **Stripe Billing** - Subscriptions, webhooks, customer portal
+- **Database** - Prisma ORM witBuilt by Augustus Rivers at [Offlabel Design](https://offlabel.design) PostgreSQL
+- **UI Components** - Tailwind CSS with Radix UI primitivesaS Scaffold
 
 Production-ready Next.js 15 SaaS platform with authentication, billing, and all the stuff you need to actually ship a product.
 
@@ -8,7 +11,7 @@ Production-ready Next.js 15 SaaS platform with authentication, billing, and all 
 
 - **Authentication** - NextAuth.js with Google, GitHub, and email
 - **Stripe Billing** - Subscriptions, webhooks, customer portal
-- ️ **Database** - Prisma ORM with PostgreSQL
+-  **Database** - Prisma ORM with PostgreSQL
 - **UI Components** - Tailwind CSS with Radix UI primitives
 - **Responsive** - Mobile-first design
 - **Testing** - Jest setup ready to go
@@ -164,7 +167,7 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
 
 MIT License - see [LICENSE](./LICENSE)
 
-Built with ️ by Augustus Rivers at [Offlabel Design](https://offlabel.design)
+Built with  by Augustus Rivers at [Offlabel Design](https://offlabel.design)
 
 Questions? Email: hello@offlabel.design
 
@@ -175,28 +178,16 @@ Questions? Email: hello@offlabel.design
 docker-compose up
 ```
 
-## Deployment
-
-See [deployment guide](./docs/DEPLOYMENT.md) for production deployment instructions.
-
-## Contributing
-
-Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
-
-## License
-
-MIT License - see [LICENSE](./LICENSE) file for details.
-
 ## Related Scaffolds
 
 Part of the [SaaSy Scaffold Library](https://github.com/ajibear?tab=repositories&q=scaffold) - 47+ production-ready templates for any project.
 
 ---
 
-**Author:** [Augustus Rivers](https://offlabel.design) 
-**Website:** https://offlabel.design 
-**Email:** hello@offlabel.design 
-**Created:** October 02, 2025 
+**Author:** [Augustus Rivers](https://offlabel.design)
+**Website:** https://offlabel.design
+**Email:** hello@offlabel.design
+**Created:** October 02, 2025
 **License:** MIT
 
 ## Support
