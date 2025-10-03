@@ -6,16 +6,16 @@ Production-ready Next.js 15 SaaS platform with authentication, billing, and all 
 
 ## What's Included
 
-- 🔐 **Authentication** - NextAuth.js with Google, GitHub, and email
-- 💳 **Stripe Billing** - Subscriptions, webhooks, customer portal
-- 🗄️ **Database** - Prisma ORM with PostgreSQL
-- 🎨 **UI Components** - Tailwind CSS with Radix UI primitives
-- 📱 **Responsive** - Mobile-first design
-- 🧪 **Testing** - Jest setup ready to go
-- 🚀 **Deployment** - Docker config and deployment docs
-- 📊 **Analytics Ready** - Easy to plug in your analytics
+- **Authentication** - NextAuth.js with Google, GitHub, and email
+- **Stripe Billing** - Subscriptions, webhooks, customer portal
+- ️ **Database** - Prisma ORM with PostgreSQL
+- **UI Components** - Tailwind CSS with Radix UI primitives
+- **Responsive** - Mobile-first design
+- **Testing** - Jest setup ready to go
+- **Deployment** - Docker config and deployment docs
+- **Analytics Ready** - Easy to plug in your analytics
 
-## Quick Start
+## Getting Started
 
 ```bash
 # Clone and install
@@ -37,7 +37,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) and you're good to go.
 
-## Configuration
+## Environment
 
 ### Database
 
@@ -76,38 +76,38 @@ Update `DATABASE_URL` in your `.env` file.
 
 ```
 src/
-├── app/              # Next.js 15 app directory
-│   ├── api/          # API routes
-│   ├── auth/         # Auth pages
-│   └── dashboard/    # Protected dashboard
-├── components/       # React components
-│   ├── ui/           # Base UI components
-│   └── auth/         # Auth-related components
-├── lib/              # Utilities and configs
-│   ├── auth/         # Auth configuration
-│   ├── stripe/       # Stripe utilities
-│   └── db.ts         # Database client
-└── types/            # TypeScript types
+├── app/ # Next.js 15 app directory
+│ ├── api/ # API routes
+│ ├── auth/ # Auth pages
+│ └── dashboard/ # Protected dashboard
+├── components/ # React components
+│ ├── ui/ # Base UI components
+│ └── auth/ # Auth-related components
+├── lib/ # Utilities and configs
+│ ├── auth/ # Auth configuration
+│ ├── stripe/ # Stripe utilities
+│ └── db.ts # Database client
+└── types/ # TypeScript types
 ```
 
 ## Scripts
 
 ```bash
-npm run dev          # Start development server
-npm run build        # Build for production
-npm run start        # Start production server
-npm run lint         # Run ESLint
-npm run type-check   # Run TypeScript compiler
-npm test             # Run tests
+npm run dev # Start development server
+npm run build # Build for production
+npm run start # Start production server
+npm run lint # Run ESLint
+npm run type-check # Run TypeScript compiler
+npm test # Run tests
 ```
 
 ## Database Commands
 
 ```bash
-npx prisma db push       # Push schema changes
-npx prisma generate      # Generate Prisma Client
-npx prisma studio        # Open database GUI
-npx prisma migrate dev   # Create migration (production)
+npx prisma db push # Push schema changes
+npx prisma generate # Generate Prisma Client
+npx prisma studio # Open database GUI
+npx prisma migrate dev # Create migration (production)
 ```
 
 ## Deployment
@@ -164,42 +164,42 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
 
 MIT License - see [LICENSE](./LICENSE)
 
-Built with ❤️ by Augustus Rivers at [Offlabel Design](https://offlabel.design)
+Built with ️ by Augustus Rivers at [Offlabel Design](https://offlabel.design)
 
 Questions? Email: hello@offlabel.design
 
-## 🐳 Docker Support
+## Docker Support
 
 ```bash
 # Build and run with Docker Compose
 docker-compose up
 ```
 
-## 📦 Deployment
+## Deployment
 
 See [deployment guide](./docs/DEPLOYMENT.md) for production deployment instructions.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
 
-## 📄 License
+## License
 
 MIT License - see [LICENSE](./LICENSE) file for details.
 
-## 🔗 Related Scaffolds
+## Related Scaffolds
 
 Part of the [SaaSy Scaffold Library](https://github.com/ajibear?tab=repositories&q=scaffold) - 47+ production-ready templates for any project.
 
 ---
 
-**Author:** [Augustus Rivers](https://offlabel.design)  
-**Website:** https://offlabel.design  
-**Email:** hello@offlabel.design  
-**Created:** October 02, 2025  
+**Author:** [Augustus Rivers](https://offlabel.design) 
+**Website:** https://offlabel.design 
+**Email:** hello@offlabel.design 
+**Created:** October 02, 2025 
 **License:** MIT
 
-## 💬 Support
+## Support
 
 For questions, issues, or contributions:
 - Open an issue in this repository
